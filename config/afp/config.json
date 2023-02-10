@@ -1,0 +1,92 @@
+{
+    "logo": "auto",
+    "color": "None",
+    "allow_lazy": true,
+    "items": [
+        {
+            "UserHost": {
+                "title": "",
+                "color": "None"
+            }
+        },
+        {
+            "EnvVar": {
+                "var": "XDG_SESSION_TYPE",
+                "title": "Session Type: ",
+                "color": "None"
+            }
+        },
+	{
+	    "LineCount": {
+		"command": "pacman",
+		"args": [ "-Q" ],
+		"title": "Packages: ",
+		"color": "None"
+	    }
+	},
+        {
+            "Distro": {
+                "title": "Distro: ",
+                "color": "None"
+            }
+        },
+        {
+            "Kernel": {
+                "title": "Kernel: ",
+                "color": "None"
+            }
+        },
+        {
+            "Device": {
+                "title": "Device: ",
+                "color": "None"
+            }
+        },
+        {
+            "Vendor": {
+                "title": "Vendor: ",
+                "color": "None"
+            }
+        },
+        {
+            "RAM": {
+                "title": "Memory: ",
+                "color": "None"
+            }
+        },
+        {
+            "EnvVar": {
+                "var": "EDITOR",
+                "title": "Editor: ",
+                "color": "None"
+            }
+        },
+        {
+            "Shell": {
+                "title": "Shell: ",
+                "color": "None"
+            }
+        },
+	{
+		"GPU": {
+			"title": "GPU$: ",
+			"color": "None",
+			"brand": true,
+			"lazy": true
+		}
+	},
+        {
+            "CPU": {
+                "title": "CPU: ",
+                "color": "None"
+            }
+        },
+        {
+            "EnvVar": {
+                "var": "XDG_CURRENT_DESKTOP",
+                "title": "DE: ",
+                "color": "None"
+            }
+        }
+    ]
+}
