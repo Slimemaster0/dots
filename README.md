@@ -6,7 +6,7 @@ Screenshots
 
 ![](https://github.com/Slimemaster0/dots/blob/main/screen-shuts/blank.png)
 
-![Terminal](https://github.com/Slimemaster0/dots/blob/main/screen-shuts/blank-terminal.png)
+![Terminal](https://github.com/Slimemaster0/dots/blob/main/screen-shuts/blank-term.png)
 
 ![Vim](https://github.com/Slimemaster0/dots/blob/main/screen-shuts/vim.png)
 
