@@ -1,3 +1,6 @@
 [submodule ".zsh plugins/zsh-syntax-highlighting"]
 	path = .zsh plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule ".theme-autodownload/flat-remix-gtk"]
+	path = .theme-autodownload/flat-remix-gtk
+	url = https://github.com/daniruiz/flat-remix-gtk
