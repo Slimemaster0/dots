@@ -9,7 +9,7 @@
  * Fetch program: [AFP](https://github.com/Slimemaster0/afp)
 
  
-[Wallpaper](https://wallpapers.com/wallpapers/nature-of-waterfalls-2ygv7ssy2k0lxlzu.html)
+[Wallpaper download](https://wallpapers.com/wallpapers/nature-of-waterfalls-2ygv7ssy2k0lxlzu.html)
 
 
 ## Screenshots
