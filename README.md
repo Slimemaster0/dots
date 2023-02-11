@@ -1,6 +1,16 @@
 # My DOT files™
 
-[Wallpaper download](https://wallpapers.com/wallpapers/nature-of-waterfalls-2ygv7ssy2k0lxlzu.html)
+##Basic info:
+ * Window Manager: [Hyprland](https://github.com/hyprwm/Hyprland)
+ * Theme: FlatRemix [(GTK)](https://github.com/daniruiz/flat-remix-gtk/tree/master/themes) [(QT)](https://github.com/daniruiz/flat-remix-kde)
+ * Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
+ * Bar: [Waybar](https://github.com/Alexays/Waybar)
+ * Run launcher: [wofi](https://hg.sr.ht/~scoopta/wofi)
+ * Fetch program: [AFP](https://github.com/Slimemaster0/afp)
+
+ 
+[Wallpaper](https://wallpapers.com/wallpapers/nature-of-waterfalls-2ygv7ssy2k0lxlzu.html)
+
 
 Screenshots
 

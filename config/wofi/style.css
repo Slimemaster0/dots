@@ -1,0 +1,12 @@
+#input {
+    border-radius: 10px;
+}
+
+#window {
+    border-radius: 10px;
+}
+
+#entry:selected {
+    border-radius: 5px;
+    box-shadow: @theme_selected_bg_color 0px 0px 5px 0px;
+}
