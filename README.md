@@ -1,6 +1,6 @@
 # My DOT files™
 
-##Basic info:
+## Basic info:
  * Window Manager: [Hyprland](https://github.com/hyprwm/Hyprland)
  * Theme: FlatRemix [(GTK)](https://github.com/daniruiz/flat-remix-gtk/tree/master/themes) [(QT)](https://github.com/daniruiz/flat-remix-kde)
  * Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
@@ -12,7 +12,7 @@
 [Wallpaper](https://wallpapers.com/wallpapers/nature-of-waterfalls-2ygv7ssy2k0lxlzu.html)
 
 
-Screenshots
+## Screenshots
 
 ![](https://github.com/Slimemaster0/dots/blob/main/screen-shuts/blank.png)
 
