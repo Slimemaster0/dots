@@ -7,6 +7,7 @@
  * Bar: [Waybar](https://github.com/Alexays/Waybar)
  * Run launcher: [wofi](https://hg.sr.ht/~scoopta/wofi)
  * Fetch program: [AFP](https://github.com/Slimemaster0/afp)
+ * Shell: [zsh](https://www.zsh.org/)
 
  
 [Wallpaper download](https://wallpapers.com/wallpapers/nature-of-waterfalls-2ygv7ssy2k0lxlzu.html)
