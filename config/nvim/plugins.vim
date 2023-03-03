@@ -13,4 +13,5 @@ call plug#begin()
  Plug 'nvim-orgmode/orgmode'
  Plug 'michaelb/sniprun', {'do': 'bash install.sh'}
  Plug 'theRealCarneiro/hyprland-vim-syntax'
+ Plug 'fidian/hexmode'
 call plug#end()

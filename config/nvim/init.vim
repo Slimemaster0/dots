@@ -15,6 +15,7 @@ set hidden
 set shiftwidth=4
 let &t_ut=''
 let NERDTreeQuitOnOpen=1
+let g:hexmode_patterns = '*.bin,*.exe,*.dat,*.o,*.out'
 set completeopt=longest,menuone
 filetype plugin indent on
 source ~/.config/nvim/plugins.vim
