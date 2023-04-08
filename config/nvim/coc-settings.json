@@ -18,13 +18,23 @@
       }
     }
   },
-    "efm": {
+  "efm": {
       "command": "efm-langserver",
       "args": [],
       // custom config path
       // "args": ["-c", "/path/to/your/config.yaml"],
       "filetypes": ["vim", "eruby", "markdown"]
+    },
+      "cmake": {
+    "command": "cmake-language-server",
+    "filetypes": ["cmake"],
+    "rootPatterns": [
+      "build/"
+    ],
+    "initializationOptions": {
+      "buildDirectory": "build"
     }
+  }
   },
     "suggest.completionItemKindLabels": {
     "variable": "\uf71b",

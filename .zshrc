@@ -7,6 +7,9 @@ export KEYTIMEOUT=1
 export EDITOR="nvim"
 export BAT_THEME="TwoDark"
 
+export CC=gcc
+export CXX=g++
+
 # Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
 HISTSIZE=1000
 SAVEHIST=1000
@@ -20,7 +23,7 @@ compinit
 export TERM="xterm-kitty"
 
 ### "bat" as manpager 
-export MANPAGER="bat"
+export MANPAGER="moar"
 
 #zstyle ':completion:*' auto-description 'specify: %d'
 #zstyle ':completion:*' completer _expand _complete _correct _approximate

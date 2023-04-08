@@ -41,10 +41,10 @@ window#waybar {
     color: #cdd6f4;
     background: @warning_fg_color;
     padding: 5px;
-    border-top: 12px transparent;
-    border-radius: 12px;
+    border-top: 16px transparent;
+    border-radius: 16px;
     margin: 16px 16px;
-    transition-property: background-color;
+    transition-property: /*background-color*/ transparent;
     padding: 16px;
 }
 
@@ -88,12 +88,12 @@ window#waybar.chromium {
 #workspaces button {
     padding: 5px;
     padding-bottom: 0px;
-    /*background-color: @view_bg_color;*/
+    background-color: transparent;
     color: #ffffff;
-    box-shadow: @theme_selected_bg_color 0px 0px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 6px 0px;
     /* Use box-shadow instead of border so the text isn't offset */
     /* Avoid rounded borders under each workspace name */
-    border-radius: 5px;
+    border-radius: 0px;
     margin: 5px;
 }
 
@@ -103,9 +103,10 @@ window#waybar.chromium {
 
 #workspaces button.active {
     background-color: @theme_selected_bg_color;
-    box-shadow: @theme_selected_bg_color 0px 0px 5px 0px; 
+    box-shadow: @theme_selected_bg_color 0px 0px 6px 0px; 
     color: @theme_selected_fg_color;
     margin: 5px;
+    border-radius: 6px;
 }
 
 #workspaces button.focused {
@@ -348,7 +349,7 @@ label:focus {
 
 #clock {
     /*color: #FFFFFF;*/
-    color: skyblue;
+    color: white;
     border-bottom: @headerbar_bg_color;
     border-top: @headerbar_bg_color;
     border-radius: 5px;

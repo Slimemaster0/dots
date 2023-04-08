@@ -14,4 +14,5 @@ call plug#begin()
  Plug 'michaelb/sniprun', {'do': 'bash install.sh'}
  Plug 'theRealCarneiro/hyprland-vim-syntax'
  Plug 'fidian/hexmode'
+ Plug 'cdelledonne/vim-cmake'
 call plug#end()
