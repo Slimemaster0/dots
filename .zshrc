@@ -51,6 +51,7 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.emacs.d/bin:$PATH"
+#export PATH="/usr/bin:$PATH"
 
 afp
 
@@ -65,6 +66,8 @@ alias ckea="clear"
 alias claer="clear"
 alias polkit-gnome=/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 alias icat="kitty +kitten icat"
+alias v=nvim
+alias gustpak=wine ~/gust\ tools/gust_pak.exe
 
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
