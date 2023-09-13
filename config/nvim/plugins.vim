@@ -15,4 +15,5 @@ call plug#begin()
  Plug 'theRealCarneiro/hyprland-vim-syntax'
  Plug 'fidian/hexmode'
  Plug 'cdelledonne/vim-cmake'
+ Plug 'ap/vim-css-color'
 call plug#end()

@@ -7,6 +7,8 @@ export KEYTIMEOUT=1
 export EDITOR="nvim"
 export BAT_THEME="TwoDark"
 
+export BIN=/opt/msvc/bin/x64
+
 export CC=gcc
 export CXX=g++
 
@@ -51,9 +53,10 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.emacs.d/bin:$PATH"
+export PATH="/usr/lib/llvm14/bin:$PATH"
+export PATH="/opt/msvc/bin/x64:$PATH"
 #export PATH="/usr/bin:$PATH"
 
-afp
 
 # Aliases
 
@@ -86,3 +89,6 @@ source "$HOME/.zsh plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 source $HOME/.zsh\ plugins/sourcerc.zsh
 source $HOME/.zsh\ plugins/syntax-style.zsh
+
+
+fastfetch --load-config "$HOME/.config/fastfetch/config.conf" --logo ~/.icons/arch.png

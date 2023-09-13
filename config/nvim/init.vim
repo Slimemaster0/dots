@@ -13,6 +13,7 @@ set termguicolors
 set scrolloff=5
 set hidden
 set shiftwidth=4
+"set foldmethod=syntax
 let &t_ut=''
 let NERDTreeQuitOnOpen=1
 let g:hexmode_patterns = '*.bin,*.exe,*.dat,*.o,*.out'

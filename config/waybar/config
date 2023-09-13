@@ -9,11 +9,11 @@
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["wlr/workspaces", "wlr/mode", "custom/media"],
+    "modules-left": ["hyprland/workspaces", "wlr/mode", "custom/media"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "battery", "battery#bat2", "clock", "tray"],
     // Modules configuration
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
         "persistent_workspaces": {
             "1": [],
             "2": [],
@@ -98,7 +98,8 @@
 	"interval": 1,
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": "{:%Y-%m-%d %H:%M %S}"
+        "format": "{:%Y-%m-%d %H:%M %S}",
+	"max-length": 22,
     },
     "cpu": {
         "format": "{usage}% ",
@@ -145,7 +146,6 @@
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}",
-	"on-click": "networkmanager_dmenu"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
