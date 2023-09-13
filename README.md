@@ -6,7 +6,7 @@
  * Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
  * Bar: [Waybar](https://github.com/Alexays/Waybar)
  * Run launcher: [wofi](https://hg.sr.ht/~scoopta/wofi)
- * Fetch program: [AFP](https://github.com/Slimemaster0/afp)
+ * Fetch program: [fastfetch](https://github.com/fastfetch-cli/fastfetch)
  * Shell: [zsh](https://www.zsh.org/)
 
  
