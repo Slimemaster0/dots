@@ -2,7 +2,7 @@
 
 ## Basic info:
  * Window Manager: [Hyprland](https://github.com/hyprwm/Hyprland)
- * Theme: FlatRemix [(GTK)](https://github.com/daniruiz/flat-remix-gtk/tree/master/themes) [(QT)](https://github.com/daniruiz/flat-remix-kde)
+ * Theme: Sweet [(GTK)](https://www.gnome-look.org/p/1253385) [(QT)](https://www.gnome-look.org/p/1294174)
  * Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
  * Bar: [Waybar](https://github.com/Alexays/Waybar)
  * Run launcher: [wofi](https://hg.sr.ht/~scoopta/wofi)
