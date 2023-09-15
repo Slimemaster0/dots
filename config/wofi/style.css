@@ -16,8 +16,8 @@
 #entry:selected {
     outline-color: rgba(254, 254, 254, 0.3);
     background-color: #0067e6;
-    background-image: linear-gradient(to bottom, rgb(0,198,255), rgb(0,114,255));
-    box-shadow: 0 0 5px rgba(0, 198, 255, 0.98);
+    background-image: linear-gradient(to right, rgb(84, 51, 255), rgb(32,189,255),rgb(165,254,203));
+    box-shadow: 0 0 5px rgba(100, 198, 255, 0.98);
 }
 
 #text:selected {
