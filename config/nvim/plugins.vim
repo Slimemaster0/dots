@@ -16,4 +16,5 @@ call plug#begin()
  Plug 'fidian/hexmode'
  Plug 'cdelledonne/vim-cmake'
  Plug 'ap/vim-css-color'
+ Plug 'editorconfig/editorconfig-vim'
 call plug#end()

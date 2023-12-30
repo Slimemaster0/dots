@@ -1,4 +1,5 @@
 syntax enable
+set tw=0
 set relativenumber
 set number
 set spell

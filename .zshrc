@@ -1,3 +1,5 @@
+fastfetch --load-config "$HOME/.config/fastfetch/config.conf" --logo ~/.icons/arch.png
+
 setopt histignorealldups sharehistory
 
 # Use emacs keybindings even if our EDITOR is set to vi
@@ -55,6 +57,7 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.emacs.d/bin:$PATH"
 export PATH="/usr/lib/llvm14/bin:$PATH"
 export PATH="/opt/msvc/bin/x64:$PATH"
+export SUDO_USER=slimemaster
 #export PATH="/usr/bin:$PATH"
 
 
@@ -70,7 +73,7 @@ alias claer="clear"
 alias polkit-gnome=/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 alias icat="kitty +kitten icat"
 alias v=nvim
-alias gustpak=wine ~/gust\ tools/gust_pak.exe
+alias gustpak="wine ~/gust\ tools/gust_pak.exe"
 
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
@@ -90,5 +93,5 @@ source "$HOME/.zsh plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 source $HOME/.zsh\ plugins/sourcerc.zsh
 source $HOME/.zsh\ plugins/syntax-style.zsh
 
-
-fastfetch --load-config "$HOME/.config/fastfetch/config.conf" --logo ~/.icons/arch.png
+# Created by `pipx` on 2023-12-30 08:56:15
+export PATH="$PATH:/home/slimemaster/.local/bin"
