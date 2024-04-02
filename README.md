@@ -15,4 +15,5 @@
 
 ## Screenshots
 
-![](https://github.com/Slimemaster0/dots/blob/main/screen-shuts/commited.png)
+![Terminyal](https://github.com/Slimemaster0/dots/blob/main/screen-shuts/commited.png)
+![Discord](https://github.com/Slimemaster0/dots/blob/main/screen-shuts/discord.png)

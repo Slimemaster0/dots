@@ -1,0 +1,7 @@
+@import url(https://raw.githubusercontent.com/DiscordStyles/FrostedGlass/deploy/FrostedGlass.theme.css);
+
+:root {
+    --background-image: url(https://cdn.discordapp.com/attachments/962697394850521108/1215404484319252510/air.png);
+    --window-padding: 0px;
+    --window-roundness: 0px;
+}
