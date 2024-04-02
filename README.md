@@ -2,10 +2,10 @@
 
 ## Basic info:
  * Window Manager: [Hyprland](https://github.com/hyprwm/Hyprland)
- * Theme: Sweet [(GTK)](https://www.gnome-look.org/p/1253385) [(QT)](https://www.gnome-look.org/p/1294174)
+ * Theme: Sweet (GTK): Custom Transparent theme (QT): Inverse Dark
  * Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
  * Bar: [Waybar](https://github.com/Alexays/Waybar)
- * Run launcher: [wofi](https://hg.sr.ht/~scoopta/wofi)
+ * Run launcher: Rofi (Wayland)
  * Fetch program: [fastfetch](https://github.com/fastfetch-cli/fastfetch)
  * Shell: [zsh](https://www.zsh.org/)
 
