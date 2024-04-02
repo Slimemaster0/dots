@@ -10,7 +10,7 @@ set mouse=
 set nowrap
 set nocompatible
 set background=dark
-set termguicolors
+"set termguicolors
 set scrolloff=5
 set hidden
 set shiftwidth=4
@@ -25,11 +25,11 @@ source ~/.config/nvim/keybindings.vim
 source ~/.config/nvim/commands.vim
 :lua require('org-mode')
 
-colorscheme onedark
+colorscheme nightfly
 let g:lightline = {
-      \ 'colorscheme': 'one',
-      \ 'separator': {'left': "\ue0b0", 'right': "\ue0b2"},
-      \ 'subseparator': { 'left': "\ue0b1", 'right': "\ue0b3"},
+      \ 'colorscheme': 'nightfly',
+      \ 'separator': {'left': "\ue0b4", 'right': "\ue0b6"},
+      \ 'subseparator': { 'left': "\ue0b5", 'right': "\ue0b7"},
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'cocstatus', 'currentfunction', 'readonly', 'filename', 'modified' ] ]

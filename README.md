@@ -15,10 +15,4 @@
 
 ## Screenshots
 
-![](https://github.com/Slimemaster0/dots/blob/main/screen-shuts/blank.png)
-
-![Terminal](https://github.com/Slimemaster0/dots/blob/main/screen-shuts/blank-term.png)
-
-![Vim](https://github.com/Slimemaster0/dots/blob/main/screen-shuts/vim.png)
-
-![GTK apps](https://github.com/Slimemaster0/dots/blob/main/screen-shuts/GTK.png)
+![](https://github.com/Slimemaster0/dots/blob/main/screen-shuts/commited.png)

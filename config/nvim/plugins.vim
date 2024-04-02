@@ -17,4 +17,10 @@ call plug#begin()
  Plug 'cdelledonne/vim-cmake'
  Plug 'ap/vim-css-color'
  Plug 'editorconfig/editorconfig-vim'
+ Plug 'folke/tokyonight.nvim'
+ Plug 'Mofiqul/vscode.nvim'
+ Plug 'wojciechkepka/vim-github-dark'
+ Plug 'sonph/onehalf', {'rtp': 'vim/'}
+ Plug 'tomasr/molokai'
+ Plug 'bluz71/vim-nightfly-colors', { 'as': 'nightfly' }
 call plug#end()

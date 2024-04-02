@@ -153,4 +153,4 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 
-nnoremap <Esc> :noh<CR>
+nnoremap <Esc> :noh<CR>:<BS>
