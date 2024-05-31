@@ -25,9 +25,9 @@ source ~/.config/nvim/keybindings.vim
 source ~/.config/nvim/commands.vim
 :lua require('org-mode')
 
-colorscheme nightfly
+colorscheme onedark
 let g:lightline = {
-      \ 'colorscheme': 'nightfly',
+      \ 'colorscheme': 'one',
       \ 'separator': {'left': "\ue0b4", 'right': "\ue0b6"},
       \ 'subseparator': { 'left': "\ue0b5", 'right': "\ue0b7"},
       \ 'active': {

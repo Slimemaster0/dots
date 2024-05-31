@@ -1,4 +1,4 @@
-fastfetch --load-config "$HOME/.config/fastfetch/config.conf" --logo ~/.icons/gentoo.png
+fastfetch
 
 setopt histignorealldups sharehistory
 

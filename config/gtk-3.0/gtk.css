@@ -25,13 +25,13 @@
 @define-color card_bg_color rgba(255, 255, 255, 0.08);
 @define-color card_fg_color #ffffff;
 @define-color card_shade_color rgba(0, 0, 0, 0.36);
-@define-color dialog_bg_color rgba(0,0,0,0.79);
+@define-color dialog_bg_color rgba(0,0,0,0.70);
 @define-color dialog_fg_color #ffffff;
 @define-color popover_bg_color rgba(0,0,0,0.75);
 @define-color popover_fg_color #ffffff;
 @define-color shade_color rgba(0, 0, 0, 0.36);
 @define-color scrollbar_outline_color rgba(0, 0, 0, 0.5);
-@define-color sidebar_bg_color rgba(0,0,0,0.8);
+@define-color sidebar_bg_color rgba(0, 0, 0, 0.8);
 @define-color sidebar_backdrop_color rgba(0,0,0,0.8);
 @define-color blue_1 #99c1f1;
 @define-color blue_2 #62a0ea;
@@ -78,4 +78,3 @@
 @define-color dark_3 #3d3846;
 @define-color dark_4 #241f31;
 @define-color dark_5 #000000;
-
