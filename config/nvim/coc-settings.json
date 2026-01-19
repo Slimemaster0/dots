@@ -60,5 +60,11 @@
     "typeParameter": "\uf278",
     "default": "\uf29c"
   },
-  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.6/clangd_15.0.6/bin/clangd"
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.6/clangd_15.0.6/bin/clangd",
+  "languageserver": {
+   "glsl": {
+     "command": "glsl_analyzer",
+     "filetypes": ["glsl", "vert", "tecs", "tese", "frag", "geom", "comp"]
+   }
+ }
 }

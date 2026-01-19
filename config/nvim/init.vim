@@ -1,5 +1,6 @@
 syntax enable
-set tw=0
+set textwidth=2147483647
+set clipboard=unnamed
 set relativenumber
 set number
 set spell
@@ -23,7 +24,6 @@ filetype plugin indent on
 source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/keybindings.vim
 source ~/.config/nvim/commands.vim
-:lua require('org-mode')
 
 colorscheme onedark
 let g:lightline = {

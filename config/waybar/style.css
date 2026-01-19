@@ -5,8 +5,8 @@
     min-height: 0px;
 }
 
-@define-color accent_color #78aeed;
-@define-color accent_bg_color #0a64f5;
+@define-color accent_color #23fd00;
+@define-color accent_bg_color #129100;
 @define-color accent_fg_color #ffffff;
 @define-color destructive_color #ff7b63;
 @define-color destructive_bg_color #c01c28;

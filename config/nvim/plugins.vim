@@ -10,7 +10,6 @@ call plug#begin()
  Plug 'rstacruz/vim-closer'
  Plug 'neoclide/coc.nvim', {'branch': 'release'}
  Plug 'nvim-treesitter/nvim-treesitter'
- Plug 'nvim-orgmode/orgmode'
  Plug 'michaelb/sniprun', {'do': 'bash install.sh'}
  Plug 'theRealCarneiro/hyprland-vim-syntax'
  Plug 'fidian/hexmode'
@@ -23,4 +22,6 @@ call plug#begin()
  Plug 'sonph/onehalf', {'rtp': 'vim/'}
  Plug 'tomasr/molokai'
  Plug 'bluz71/vim-nightfly-colors', { 'as': 'nightfly' }
+ Plug 'https://github.com/maxbane/vim-asm_ca65'
+ Plug 'tikhomirov/vim-glsl'
 call plug#end()

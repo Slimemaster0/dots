@@ -28,8 +28,11 @@ export TERM="xterm-kitty"
 ### "bat" as manpager 
 export MANPAGER="moar"
 
+export DOTNET_ROOT="$HOME/.dotnet"
+export PATH="$DOTNET_ROOT:$DOTNET_ROOT/tools:$PATH"
+
 #sources
-export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.local/pipx/venvs/cmake-converter/bin/:$HOME/.local/bin:$HOME/.cargo/bin:$PATH"
 export SUDO_USER=slimemaster
 
 # Aliases
@@ -46,6 +49,12 @@ alias icat="kitty +kitten icat"
 alias v=nvim
 alias gustpak="wine ~/gust\ tools/gust_pak.exe"
 alias wifi_init="doas sh -c 'ifconfig wlp5s0 up; sleep 5; wpa_supplicant -B -i wlp5s0 -c /etc/wpa_supplicant/wpa_supplicant.conf'"
+alias gimp="flatpak run org.gimp.GIMP"
+alias ssh="kitty +kitten ssh"
+alias mistral-dolphin="/home/slimemaster/build/llama.cpp/build/bin/llama-run ~/.cache/llama.cpp/TheBloke_dolphin-2.6-mistral-7B-GGUF_dolphin-2.6-mistral-7b.Q2_K.gguf"
+alias fd="find -name 2>/dev/null "
+alias fdi="find -iname 2>/dev/null "
+alias icoextr="wrestool -x --output=. -t14"
 
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
@@ -65,3 +74,5 @@ source $HOME/.zsh\ plugins/syntax-style.zsh
 
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
+
+export APP_MENU=$HOME/.local/share/applications
