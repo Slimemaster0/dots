@@ -26,7 +26,7 @@ compinit
 export TERM="xterm-kitty"
 
 ### "bat" as manpager 
-export MANPAGER="moar"
+export MANPAGER="bat"
 
 export DOTNET_ROOT="$HOME/.dotnet"
 export PATH="$DOTNET_ROOT:$DOTNET_ROOT/tools:$PATH"
